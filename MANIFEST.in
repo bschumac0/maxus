@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include maxus *.css
+recursive-include maxus *.csv
+recursive-include maxus *.html
+recursive-include maxus *.ico
+recursive-include maxus *.js
+recursive-include maxus *.json
+recursive-include maxus *.md
+recursive-include maxus *.png
+recursive-include maxus *.py
+recursive-include maxus *.svg
+recursive-include maxus *.txt
+recursive-exclude maxus *.pyc
