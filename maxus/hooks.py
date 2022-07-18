@@ -184,7 +184,11 @@ fixtures = [
     {
         "doctype": "Custom Field",
         "filters": [["name", "in", [
-			"Item-test"
+			"Item-test",
+			"Item-serial_number",
+			"Item-part_number",
+			"Item-model",
+			"Item-notes"
         ]]]
 		
     }
