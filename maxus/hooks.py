@@ -179,6 +179,17 @@ user_data_fields = [
 # 	"maxus.auth.validate"
 # ]
 
+
+fixtures = [
+    {
+        "doctype": "Custom Field",
+        "filters": [["name", "in", [
+			"Item-test"
+        ]]]
+		
+    }
+]
+
 # Translation
 # --------------------------------
 
